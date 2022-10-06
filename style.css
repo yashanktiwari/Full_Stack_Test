@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: rgb(36, 13, 13);
+  font-size: 1.5rem;
+  height: 3rem;
+  align-items: center;
+}
+
+.header-div-navigation a{
+  text-decoration: none;
+  color: white;
+}
+
+.header-div-navigation a:hover{
+  color: #29d9d5;
+}
+
+.fa-camera-retro {
+  color: #29d9d5;
+}
+
+.header-text {
+  color: white;
+  font-weight: bolder;
+}
+
+.header-text:hover {
+  cursor: pointer;
+}
+
+.header-button {
+  border: 1px solid #29d9d5;
+  border-radius: 5rem;
+  /* border-radius-left: 50%; */
+  padding: 10px;
+  background-color: rgb(36, 13, 13);
+  color: #29d9d5;
+  width: 8rem;
+}
+
+.header-button:hover {
+  color: rgb(36, 13, 13);
+  background-color: #29d9d5;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.header-div-navigation{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-div-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 150px 1fr 1fr;
+  gap: 2px;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.main-div-grid div {
+  /* width: 50px;
+  height: 50px; */
+  object-fit: contain;
+  /* background-color: red; */
+}
+
+.item {
+  object-fit: cover;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: rgb(244, 202, 202);
+  padding: 1.5rem;
+  border-radius: 1.2rem;
+  margin-top: 2rem;
+  height: 2.5rem;
+}
+
+.item11 {
+  color: blue;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.item12 {
+  color: grey;
+}
+
+.img {
+  border-radius: 1.5rem;
+  height: 300px;
+  width: 400px;
+}
+
+.img:hover {
+  cursor: pointer;
+  filter: grayscale(0.25);
+  opacity: 0.75;
+}
+
+.footer1 {
+  background-image: url(images/footer1.jpg);
+  height: 20rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer1-div-heading1 {
+  padding: 1.25rem;
+  color: #29d9d5;
+  text-transform: capitalize;
+  font-size: 2rem;
+  margin: auto;
+  width: max-content;
+}
+
+.footer1-div-heading2 {
+  color: white;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 4rem;
+  margin: auto;
+  width: max-content;
+}
+
+.footer1-div-heading3{
+  width: max-content;
+  margin: auto;
+  color: black;
+  margin-top: 10px;
+}
+
+.footer1-div-heading4 {
+  width: max-content;
+  margin: auto;
+  color: black;
+  margin-top: 5px;
+}
+
+.footer1-button {
+  /* background-color: none; */
+  margin-top: 1rem;
+  margin-left: 44rem;
+  border: 1px solid #215353;
+  color: #215353;
+  padding: 10px;
+  width: 8rem;
+  background-color: transparent;
+  border-radius: 5rem;
+}
+
+.footer1-button:hover {
+  color: black;
+  background-color: #29d9d5;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.footer2 {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.photography {
+  margin-left: 3rem;
+  margin-top: 1rem;
+  color: white;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.lorem5 {
+  color: lightgrey;
+  margin-top: 0.5rem;
+  margin-left: 3rem;
+}
+
+.lorem4 {
+  color: lightgrey;
+  margin-top: 0.5rem;
+  margin-left: 3rem;
+}
+
+.all-logos {
+  margin-bottom: 10rem;
+}
+
+.fa-facebook-f {
+  margin-left: 3rem;
+}
+
+.fa-brands {
+  margin-top: 2rem;
+  border: 1px solid #29d9d5;
+  border-radius: 50%;
+  color: #29d9d5;
+  padding: 0.75rem;
+}
+
+.contact {
+  margin-left: 3rem;
+  margin-top: 1rem;
+  color: white;
+  font-size: 2rem;
+  font-weight: bolder;
+  display: grid;
+  justify-content: start;
+}
+
+.details {
+  font-size: 1.5rem;
+  margin-top: 1.25rem;
+  display: grid;
+  justify-content: start;
+  color: lightgrey;
+  margin-left: 3rem;
+}
+
+.newsletter {
+  margin-left: 3rem;
+  margin-top: 1rem;
+  color: white;
+  font-size: 2rem;
+  font-weight: bolder;
+  display: grid;
+  justify-content: start;
+}
+
+.footer2-item3-paragraph {
+  font-size: 1.5rem;
+  margin-top: 1.25rem;
+  display: grid;
+  justify-content: start;
+  color: lightgrey;
+  margin-left: 3rem;
+}
+
+.input {
+  margin-left: 3rem;
+  margin-top: 1.25rem;
+  color: black;
+  padding: 0.75rem;
+  border-radius: 3rem;
+  border: 1px solid #29d9d5;
+}
+
+.footer2-button {
+  margin-left: 3rem;
+  margin-top: 1.25rem;
+  border: 1px solid #29d9d5;
+  border-radius: 5rem;
+  /* border-radius-left: 50%; */
+  padding: 10px;
+  background-color: black;
+  color: #29d9d5;
+  width: 8rem;
+}
+
+.footer2-button:hover {
+  color: black;
+  background-color: #29d9d5;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
